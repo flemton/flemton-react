@@ -1,0 +1,15 @@
+2026-02-10T12:26:55Z - fix-001: Fixed lodash prototype pollution in flemton-react
+  - Added npm overrides for lodash ^4.17.21
+  - Build: PASSED
+  - Tests: PASSED
+  - Branch: security-fixes-2026-02-10
+  - Pushed to GitHub
+
+2026-02-10T14:05:00Z - fix-002: Fixed webpack-dev-middleware arbitrary code execution in flemton-react
+  - Added webpack-dev-middleware ^5.3.4 to devDependencies
+  - Added npm override for webpack-dev-middleware ^5.3.4
+  - Build: PASSED
+  - Tests: PASSED
+  - Regression test added: test/security/webpack-dev-middleware.test.js
+  - Branch: security-fixes-2026-02-10
+  - Pushed to GitHub
