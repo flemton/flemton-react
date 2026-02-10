@@ -56,5 +56,10 @@
     "*.{js,json,yml,yaml,css,scss,ts,tsx,md}": [
       "prettier --write"
     ]
+  },
+  "overrides": {
+    "lodash": "^4.17.21",
+    "lodash.pick": "^4.4.0",
+    "lodash.template": "^4.5.0"
   }
 }
